@@ -1,10 +1,8 @@
-x=int(input("enter any number"))
+x=int(input("enter any number to check for palindrome"))
 y=str(x)
-length=len(y)
-length1=length-1
 a=0
 b="true"
-c=length1
+c=len(y)
 while (c>a):
     if (y[a]!=y[c]):
         b="false"
