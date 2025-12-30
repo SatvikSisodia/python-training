@@ -1,7 +1,7 @@
 s=input("enter any sentence longer than one word")
 x=len(s)-1
 y=x
-while (s[y]==" "):
+while (s[y]==" " and (y>0)):
     y-=1
 z=y
 while (y>0) and (s[y]!=" "):
