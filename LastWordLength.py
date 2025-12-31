@@ -1,4 +1,4 @@
-s=input("enter any sentence longer than one word")
+s=input("enter any sentence longer than one word :")
 x=len(s)-1
 y=x
 while (s[y]==" " and (y>0)):
