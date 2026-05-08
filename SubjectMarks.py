@@ -1,0 +1,11 @@
+subjects= {}
+a1= input("enter the name of your first subject")
+a2= int(input("enter marks"))
+subjects.update({a1 : a2})
+b1= input("enter the name of your second subject")
+b2= int(input("enter marks"))
+subjects.update({b1 :b2})
+c1= input("enter the name of your third subject")
+c2= int(input("enter marks"))
+subjects.update({c1 :c2})
+print (subjects)
