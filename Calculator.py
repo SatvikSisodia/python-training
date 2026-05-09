@@ -1,18 +1,13 @@
-a=False
 def calc():
     operation=input("would you like to add, subtract, multiply or divide(Please write in smallcase)?")
     if (operation=="add"):
         print(f"The sum is {x+y}")
-        a=True
     elif (operation=="subtract"):
         print(f"The difference is {x-y}")
-        a=True
     elif (operation=="multiply"):
         print(f"The result is {x*y}")
-        a=True
     elif (operation=="divide"):
         print(f"The quotient is {x/y}")
-        a=True
     else:
         print("Invalid input")
 b=1
