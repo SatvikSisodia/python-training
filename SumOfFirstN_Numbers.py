@@ -7,4 +7,4 @@ while (d<=c):
     a+=b
     b+=1
     d+=1
-print(f"Sum of first {c} natural no.s is {a}")  
+print(f"Sum of first {c} natural no.s is {a}")   
